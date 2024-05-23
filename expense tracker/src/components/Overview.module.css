@@ -1,0 +1,121 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.maincontainer{
+    border: 2px solid red;
+}
+.balance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 600px;
+    box-shadow: 4px 2px 3px 3px rgba(16, 9, 9, 0.1);
+}
+
+.balance h3 {
+    margin-right: 100px; 
+}
+.addbut{
+    display: block;
+    padding: 10px;
+    background-color: #ed840d;
+    color: #f6eded;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+         /*  form  */
+
+.transactionForm {
+    max-width: 600px;
+    height: 270px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .textInput {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .radioGroup {
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  
+
+  .radioGroup label {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .radioGroup input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .addButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+ .container3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:150px;
+  font-size: 20px;
+ }
+ .expense{
+  border:2px dotted red;
+  padding: 15px;
+  font-size:15px;
+  background-color: rgba(221, 217, 217, 0.2);
+  border-radius: 3px;
+ }
+.expense span{
+  font-size:25px;
+  font-weight: bold;
+  color:red;
+}
+ .income{
+  border:2px dotted green;
+  padding: 15px;
+  font-size:15px;
+  background-color: rgba(221, 217, 217, 0.2);
+  border-radius: 3px;
+ }
+ .income span{
+  font-size:25px;
+  font-weight: bold;
+  color:green;
+}
